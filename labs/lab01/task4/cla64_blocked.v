@@ -18,6 +18,7 @@ module cla64_blocked(
   output        cout
 );
 
+
   wire [15:1] c;   // carries BETWEEN blocks: c[1]..c[15]
 
   // TODO: your sixteen cla4 instances go here.

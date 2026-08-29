@@ -18,6 +18,7 @@ module tb;
     .cout (t_cout)
   );
 
+
   // Waveform dump configuration
   string vcd_file;
   initial begin
@@ -26,6 +27,7 @@ module tb;
       $dumpvars(0, DUT);
     end
   end
+
 
   initial begin
     t_a = 64'd0; t_b = 64'd0; t_cin = 0;
