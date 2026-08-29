@@ -3,11 +3,13 @@
 // Works unchanged regardless of which implementation is currently active
 // inside dut.v.
 
+
 module tb;
   reg  [3:0] t_a, t_b;
   reg        t_cin;
   wire [3:0] t_sum;
   wire       t_cout;
+
 
   dut DUT (
     .a    (t_a),
