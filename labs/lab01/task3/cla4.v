@@ -30,6 +30,7 @@ module cla4(
   wire p0, p1, p2, p3;
   wire g0, g1, g2, g3;
   wire c1, c2, c3;
+  
 
   // TODO: your gate-level P/G, carry, and sum logic goes here.
   // (cout should be connected to c4.) Remember the delay on every gate.
